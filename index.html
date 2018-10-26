@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo MVC</title>
+    <link href='styles/base.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h1>HEADER-TODO-LOGO</h1>
+    <div class = "Todo-board">
+        <form class="todo-creator" aria-label = "check-all-items-as-done">
+            <button class = "todo-check-them-all"></button>
+            <input type = "text" class="todo-text-input" placeholder="New todo..."
+                   aria-label = "Input new todo"/>
+        </form>
+
+         <div class="todo-list" aria-label = "check-if-done" aria-label = "check-item-if-done">
+             <div class = "todo-item">
+                <input type = "checkbox" class = "checked"/>
+                 <div class = "todo-item-text">HTML</div>
+                 <button class = "todo-button-to-remove" aria-label = "click-to-delete-item"></button>
+             </div>
+
+             <div class = "todo-item">
+                <input type = "checkbox" checked class = "checked"/>
+                 <div class = "todo-item-text">CSS</div>
+                 <button class = "todo-button-to-remove" aria-label = "click-to-delete-item"></button>
+             </div>
+
+             <div class = "todo-item">
+                <input type = "checkbox" class = "checked"/>
+                 <div class = "todo-item-text">JS</div>
+                 <button class = "todo-button-to-remove" aria-label = "click-to-delete-item"></button>
+             </div>
+         </div>
+
+        <div class = "todo-toolbar">
+            <div class="todos-=toolbar_unready-counter">Total amount of todos: 3</div>
+            <div class="todos-toolbar_filters">
+                <button class="todos-toolbar_filter __selected" aria-label = "Filter: all" >All</button>
+                <button class="todos-toolbar_filter __selected" aria-label = "Filter: active" >Active</button>
+                <button class="todos-toolbar_filter __selected" aria-label = "Filter: completed" >Completed</button>
+            </div>
+
+            <button class="todo-toolbar-clear-completed">Clear completed</button>
+        </div>
+    </div>
+</body>
+</html>
