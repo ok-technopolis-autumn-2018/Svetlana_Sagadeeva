@@ -1,0 +1,31 @@
+.todos-toolbar {
+
+}
+
+    .todos-toolbar-inline{
+        float: left;
+    }
+
+    .todos-toolbar_unready-counter{
+        float: left;
+    }
+
+    .todos-toolbar_filters{
+        float: left;
+    }
+        .filters-item.selected {
+            float: left;
+        }
+        .filters-item.active {
+            float: left;
+        }
+        .filters-item.completed {
+            float: left;
+        }
+
+    .todos-toolbar_clear_button {
+            float: left;
+    }
+        .todos-toolbar_clear-completed {
+            float: left;
+        }
