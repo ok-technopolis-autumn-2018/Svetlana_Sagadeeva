@@ -1,9 +1,9 @@
 .todos-toolbar {
-
+    display: inline-block;
 }
 
     .todos-toolbar-inline{
-        float: left;
+        /*float: left;*/
     }
 
     .todos-toolbar_unready-counter{
