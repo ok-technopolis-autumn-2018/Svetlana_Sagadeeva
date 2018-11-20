@@ -20,77 +20,48 @@
             </div>
         </form>
 
-        <div class="todos-list">
-            <div class="todos-list_item">
-                <div class="custom-checkbox todos-list_item_ready-marker">
-                    <input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />
-                    <div class="custom-checkbox_visual">
-                        <div class="custom-checkbox_visual_icon"></div>
-                    </div>
-                </div>
-                <button class="todos-list_item_remove" aria-label="Delete todo"></button>
-                <div class="todos-list_item_text-w">
-                    <div class="todos-list_item_text">HTML</div>
-                </div>
-            </div>
-        </div>
+        <ul class="todos-list">
+             <li class="todos-list-item">
+              <input type="checkbox" id="checkbox-html" class="todos-list-item-checkbox" aria-label="Mark todo as ready"/>
+              <label for="checkbox-html"></label>
+              <p class="checkbox-label">HTML</p>
+              <button class="todos-list-item-remove" aria-label="Delete todo"></button>
+             </li>
 
-            <div class="todos-list_item">
-                <!--<div class="custom-checkbox todos-list_item_ready-marker">-->
-                <label class="custom-check-box_label">
-                    <input
-                            id="checker" type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready"
-                    />
-                    <span></span>
-                </label>
+            <li class="todos-list-item">
+                <input type="checkbox" id="checkbox-css" class="todos-list-item-checkbox" aria-label="Mark todo as ready"/>
+                <label for="checkbox-css" class="checkbox-label_checked"></label>
+                <p class="checkbox-label_striked">CSS</p>
+                <button class="todos-list-item-remove" aria-label="Delete todo"></button>
+            </li>
 
-                <!--</div>-->
-                <button class="todos-list_item_remove" aria-label="Delete todo"></button>
-                <div class="todos-list_item_text-w">
-                    <div class="todos-list_item_text">CSS</div>
-                </div>
-            </div>
-            <div class="todos-list_item">
-                <div class="custom-checkbox todos-list_item_ready-marker">
-                    <input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />
-                    <div class="custom-checkbox_visual">
-                        <div class="custom-checkbox_visual_icon"></div>
-                    </div>
-                </div>
-                <button class="todos-list_item_remove" aria-label="Delete todo"></button>
-                <div class="todos-list_item_text-w">
-                    <div class="todos-list_item_text">JS</div>
-                </div>
-            </div>
+             <li class="todos-list-item">
+                <input type="checkbox" id="checkbox-JS" class="todos-list-item-checkbox" aria-label="Mark todo as ready"/>
+                <label for="checkbox-JS"></label>
+                <p class="checkbox-label">JS</p>
+                <button class="todos-list-item-remove" aria-label="Delete todo"></button>
+            </li>
 
-
-            <div class="todos-list_item">
-                <div class="custom-checkbox todos-list_item_ready-marker">
-                    <input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />
-                    <div class="custom-checkbox_visual">
-                        <div class="custom-checkbox_visual_icon"></div>
-                    </div>
-                </div>
-                <button class="todos-list_item_remove" aria-label="Delete todo"></button>
-                <div class="todos-list_item_text-w">
-                    <div class="todos-list_item_text">JS tools</div>
-                </div>
-            </div>
+             <li class="todos-list-item">
+                <input type="checkbox" id="checkbox-JS-tools" class="todos-list-item-checkbox" aria-label="Mark todo as ready"/>
+                <label for="checkbox-JS-tools"></label>
+                <p class="checkbox-label">JS tools</p>
+                <button class="todos-list-item-remove" aria-label="Delete todo"></button>
+            </li>
+        </ul>
 
         <div class="todos-toolbar">
-          <div class="todos-toolbar-inline" aria-label="Filter and delete completed tasks">
             <div class="todos-toolbar_unready-counter">3 items left</div>
-
-                <button class="filters-item __selected" aria-label="Filter: All, is selected">All</button>
+            <div class="todos-toolbar-filters-button-group" aria-label="Filter and delete completed tasks">
+                <button class="filters-item __selected " aria-label="Filter: All, is selected">All</button>
                 <button class="filters-item __active" aria-label="Filter: Active">Active</button>
                 <button class="filters-item __completed" aria-label="Filter: Completed">Completed</button>
-
+            </div>
             <div class="todos-toolbar_clear_button">
                 <button class="todos-toolbar_clear-completed" aria-label="Clear completed">Clear completed</button>
             </div>
-          </div>
         </div>
-       </div>
      </div>
+    </div>
    </body>
 </html>

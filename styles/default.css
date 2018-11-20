@@ -3,6 +3,7 @@
 
 @import "base/main.css";
 @import "base/custom-checkbox/custom-checkbox.css";
+@import "base/checkbox/checkbox.css";
 
 
 @import "project/todo-title/todo-title.css";

@@ -2,17 +2,41 @@
     display: inline-block;
 }
 
-    .todos-toolbar-inline{
-        /*float: left;*/
-    }
-
     .todos-toolbar_unready-counter{
         float: left;
+        padding: 0;
+        font-size: 13px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        text-align: left;
+        margin: 5px;
+        border: 0;
     }
 
-    .todos-toolbar_filters{
-        float: left;
+    .todos-toolbar-filters-button-group{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        padding-left: 18px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
     }
+
+        .filters-item {
+            background-color: white;
+            padding: 2px 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            margin-top: 5px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .filters-item:after {
+            border: #666666;
+        }
+
         .filters-item.selected {
             float: left;
         }
@@ -24,8 +48,17 @@
         }
 
     .todos-toolbar_clear_button {
-            float: left;
+            float: right;
+            text-align: right;
     }
         .todos-toolbar_clear-completed {
-            float: left;
+            float: right;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            font-size: 12px;
+            margin-top: 5px;
+            margin-right: 5px;
+            text-align: right;
+            border: none;
+            cursor: pointer;
         }
