@@ -5,6 +5,7 @@
     }
 
     .todos-list-item {
+        float:left;
         display: block;
         width: 100%;
         height: 50px;
