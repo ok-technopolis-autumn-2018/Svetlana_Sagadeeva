@@ -17,24 +17,18 @@
         text-align: center;
         position: relative;
         padding-left: 18px;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
     }
 
         .filters-item {
+            float: left;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             background-color: white;
-            padding: 2px 8px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 13px;
+            font-size: 12px;
             margin-top: 5px;
-            cursor: pointer;
+            margin-right: 5px;
+            text-align: right;
             border: none;
-        }
-
-        .filters-item:after {
-            border: #666666;
+            cursor: pointer;
         }
 
         .filters-item.selected {

@@ -12,11 +12,6 @@
     float: left;
 }
 
-.todos-list-item-checkbox:checked + label {
-    background: url(../../../images/completed.png) 6px 7px no-repeat;
-    border-color: #6AC6B4;
-}
-
 .checkbox-label {
     position: relative;
     bottom: 8px;
@@ -25,20 +20,27 @@
     font-family: Helvetica, sans-serif
 }
 
-    .checkbox-label_striked {
-         position: relative;
-         bottom: 8px;
-         font-family: Helvetica, sans-serif;
-         margin-left: 10px;
-         float: left;
-         color: #666;
-         text-decoration: line-through;
-    }
+.todos-list-item-checkbox:checked + label {
+    background: url(../../../images/completed.png) 6px 7px no-repeat;
+    border-color: #6AC6B4;
+}
 
-    .checkbox-label_checked {
-        background: url(../../../images/completed.png) 6px 7px no-repeat;
-        border-color: #6AC6B4;
-    }
+    /*.checkbox-label_striked {*/
+         /*position: relative;*/
+         /*bottom: 8px;*/
+         /*font-family: Helvetica, sans-serif;*/
+         /*margin-left: 10px;*/
+         /*float: left;*/
+         /*color: #666;*/
+         /*text-decoration: line-through;*/
+         /*border-color: #6AC6B4;*/
+    /*}*/
+
+    /*.checkbox-label_checked:after {*/
+        /*background: url(../../../images/completed.png) 6px 7px no-repeat;*/
+        /*border-color: #6AC6B4;*/
+        /*text-decoration: line-through;*/
+    /*}*/
 
 .todos-list-item-remove {
     float: right;
